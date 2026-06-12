@@ -1,0 +1,26 @@
+@puerto = 5057
+@host = http://localhost:{{puerto}}
+
+### 1. Prueba del GET: Obtener todos los nodos iniciales
+# Dale clic a "Send Request" justo arriba de esta línea para ejecutar y tomar tu primera captura.
+GET {{host}}/api/nodos
+Accept: application/json
+
+###
+
+### 2. Prueba del POST: Insertar un nuevo nodo (ID 15)
+# Dale clic a "Send Request" justo arriba de esta línea para ejecutar y tomar tu segunda captura.
+POST {{host}}/api/nodos
+Content-Type: application/json
+
+{
+    "id": 15,
+    "valor": "Nuevo Nodo Derecho"
+}
+
+###
+
+### 3. Prueba del GET nuevamente para verificar la inserción
+# Dale clic a "Send Request" aquí y toma tu tercera captura para confirmar que se agregó el nodo 15.
+GET {{host}}/api/nodos
+Accept: application/json
