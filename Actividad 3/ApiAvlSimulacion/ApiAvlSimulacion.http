@@ -1,0 +1,16 @@
+@ApiAvlSimulacion_HostAddress = http://localhost:5257
+
+### Paso A (GET): Consultar Estado Inicial Desbalanceado
+GET {{ApiAvlSimulacion_HostAddress}}/api/arbol
+Accept: application/json
+
+###
+
+### Paso B y C (POST): Inserción que dispara el balanceo
+POST {{ApiAvlSimulacion_HostAddress}}/api/arbol/insertar
+Content-Type: application/json
+
+{
+  "id": 20,
+  "etiqueta": "Nieto Derecho"
+}
