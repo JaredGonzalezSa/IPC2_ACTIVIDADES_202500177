@@ -1,0 +1,13 @@
+### Prueba de Cohesión (GET) - Obtener todos los estudiantes
+GET http://localhost:5125/Estudiante/Listar
+
+
+### Evaluación de Antipatrones (POST) - Registrar un estudiante
+POST http://localhost:5125/Estudiante/Registrar
+Content-Type: application/json
+
+{
+    "carne": 2026123,
+    "nombre": "Juan Perez",
+    "promedio": 85.5
+}
