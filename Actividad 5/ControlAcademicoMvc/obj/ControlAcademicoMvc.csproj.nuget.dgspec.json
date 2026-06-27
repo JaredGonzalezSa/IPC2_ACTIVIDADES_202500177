@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\actividades\\Actividad 2\\ApiEstructurasDemo\\ApiEstructurasDemo.csproj": {}
+    "c:\\actividades\\Actividad 5\\ControlAcademicoMvc\\ControlAcademicoMvc.csproj": {}
   },
   "projects": {
-    "C:\\actividades\\Actividad 2\\ApiEstructurasDemo\\ApiEstructurasDemo.csproj": {
+    "c:\\actividades\\Actividad 5\\ControlAcademicoMvc\\ControlAcademicoMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\actividades\\Actividad 2\\ApiEstructurasDemo\\ApiEstructurasDemo.csproj",
-        "projectName": "ApiEstructurasDemo",
-        "projectPath": "C:\\actividades\\Actividad 2\\ApiEstructurasDemo\\ApiEstructurasDemo.csproj",
+        "projectUniqueName": "c:\\actividades\\Actividad 5\\ControlAcademicoMvc\\ControlAcademicoMvc.csproj",
+        "projectName": "ControlAcademicoMvc",
+        "projectPath": "c:\\actividades\\Actividad 5\\ControlAcademicoMvc\\ControlAcademicoMvc.csproj",
         "packagesPath": "C:\\Users\\jared\\.nuget\\packages\\",
-        "outputPath": "C:\\actividades\\Actividad 2\\ApiEstructurasDemo\\obj\\",
+        "outputPath": "c:\\actividades\\Actividad 5\\ControlAcademicoMvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jared\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -46,9 +46,9 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[10.0.9, )"
+              "version": "[10.0.0, )"
             }
           },
           "imports": [
